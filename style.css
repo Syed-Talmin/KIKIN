@@ -1,0 +1,21 @@
+span{
+    display: inline-block;
+}
+
+
+
+h1,h2,h3 {
+  font-family: "League Spartan", sans-serif;
+}
+
+.loop-inner{
+  animation: MoveInf 15s linear infinite;
+}
+
+@keyframes MoveInf {
+  0%{
+    transform: translateX(-100%);
+  }100%{
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main overflow-hidden">
+      <nav
+        class="flex fixed z-9 bg-[#122315] w-full justify-between items-center px-5 py-2"
+      >
+        <img
+          class="w-25"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/63f35d11461fa083cbe695de_Logo%20white.svg"
+          alt=""
+        />
+        <div class="flex items-center gap-2">
+          <button
+            class="text-md text-[#fefff5] p-3 py-1.5 bg-transparent rounded-lg border-1 border-zinc-200/20"
+          >
+            LOG IN
+          </button>
+          <button
+            class="text-md text-[#000] font-medium p-3 py-1.5 bg-[#55DE48] rounded-lg"
+          >
+            GET FUNDING
+          </button>
+        </div>
+      </nav>
+      <div class="home flex items-end bg-[#122315] w-screen md:h-[130vh] h-screen relative overflow-hidden"
+      >
+        <img
+          class="md:w-full md:h-fit h-[60vh] object-cover object-center overflow-hidden"
+          src="/images/Home_Sora.svg"
+          alt="home"
+        />
+        <div
+          class="absolute flex flex-col items-center gap-5 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2"
+        >
+          <div class="flex headings flex-col items-center">
+            <div
+              class="flex w-fit h-fit overflow-hidden font-black text-[#fefff5] leading-20"
+            >
+              <h1 class="heading text-[15vw] md:text-9xl leading-[.9]">FINANCING</h1>
+            </div>
+            <div
+              class="flex w-fit h-fit overflow-hidden font-black text-[#55DE48] leading-20"
+            >
+              <h1 class="heading text-[15vw] md:text-9xl leading-[.8]">THE FUTURE</h1>
+            </div>
+          </div>
+          <button
+            class="homeBtn text-md text-[#000] font-medium p-5 py-3 bg-[#55DE48] rounded-lg"
+          >
+            GET FUNDING
+          </button>
+          <div
+            class="flex items-center justify-center gap-1 w-1/2 flex-wrap text-[#fefff5] text-center opacity-80"
+          >
+            <p class="homePara flex gap-1 text-xs md:text-lg">
+              Pay suppliers faster and extend your runway — with AI that
+              analyses your
+            </p>
+            <p class="homePara flex gap-1 text-xs md:text-lg">
+              financials in real time to unlock smarter funding.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="secondPage w-screen md:h-screen h-[80vh] bg-[#F4EBE2] relative flex flex-col items-center justify-center"
+      >
+        <h1 class="md:text-8xl text-[3rem] font-black opacity-95 md:leading-20 leading-[1] text-center w-full md:w-1/2">GOOD FOR THE PLANET.AND YOUR BUSINESS.</h1>
+        <div class="md:w-1/3 w-[90%] mt-2 flex items-center justify-center">
+          <p class="text-center">
+            We are on a mission to help good businesses grow. This is why we
+            reward sustainable businesses with lower fees, freeing up even more
+            of your cash. Get started and access funding in 5 minutes.
+          </p>
+        </div>
+        <button
+          class="text-md mt-5 text-[#000] font-medium p-3 py-1.5 bg-[#55DE48] rounded-lg"
+        >
+          GET FUNDING
+        </button>
+
+        <img
+          class="absolute secondPageBadge1 opacity-0 md:w-40 md:top-20 md:left-10 w-28 top-2 -left-10"
+          src="/images/Badge_Sora.png"
+          alt=""
+        />
+        <img
+          class="absolute secondPageBadge2 md:w-45 w-32 md:top-110 md:left-50 bottom-20 -left-12"
+          src="/images/Badge_Sora2.png"
+          alt=""
+        />
+        <img
+          class="absolute secondPageBadge3 md:w-35 w-30 md:top-10 md:right-60 top-9 -right-7"
+          src="/images/Badge_Sora3.png"
+          alt=""
+        />
+        <img
+          class="absolute secondPageBadge4 md:w-45 w-35 md:top-60 md:right-20 bottom-25 -right-20"
+          src="/images/Badge_Sora4.png"
+          alt=""
+        />
+        <img
+          class="absolute secondPageBadge5 md:w-35 w-30 md:top-120 md:right-50 bottom-5 right-20"
+          src="/images/Badge_Sora5.png"
+          alt=""
+        />
+      </div>
+
+      <div class="thirdPage w-screen bg-[#F4EBE2] pb-10">
+        <div class="p-10 flex gap-5 flex-col md:flex-row w-full items-center md:justify-between">
+          <div class="md:h-90 md:w-3/5 flex flex-col items-start md:justify-between">
+            <div class="flex flex-col gap-5">
+              <div class="overflow-hidden w-10 h-10 rounded-full">
+                <div
+                  class="benNum w-10 h-10 rounded-full bg-[#55DE48] flex items-center justify-center"
+                >
+                  01
+                </div>
+              </div>
+              <div class="h-fit overflow-hidden">
+                <h1 class="benH1 text-6xl font-black w-2/3 tracking-tighter">
+                  GROW WITH THE FLOW.
+                </h1>
+              </div>
+            </div>
+            <p class="w-[60%]">
+              We help you preserve your cash, so that you can focus on growing
+              your business and improve cash flow.
+            </p>
+          </div>
+          <div class="md:h-90 md:w-[37rem] w-full overflow-hidden">
+            <img
+              class="benImg w-full h-full"
+              src="/Images/Screenshot 2025-06-22 224451.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <hr class="w-[95%] mx-auto" />
+
+
+
+        <div class="p-10 flex gap-5 flex-col md:flex-row  w-full items-center justify-between">
+          <div class="md:h-90 md:w-3/5 flex flex-col items-start justify-between">
+            <div class="flex flex-col gap-5">
+              <div class="overflow-hidden w-10 h-10 rounded-full">
+                <div
+                  class="benNum w-10 h-10 rounded-full bg-[#55DE48] flex items-center justify-center"
+                >
+                  02
+                </div>
+              </div>
+              <div class="h-fit overflow-hidden">
+                <h1 class="benH2 text-6xl font-black w-3/4 tracking-tighter">
+                  ADAPTABLE FUNDING. ENDLESS POSSIBILITIES.
+                </h1>
+              </div>
+            </div>
+            <p class="w-[60%]">
+              Our AI-driven funding automatically updates as you grow, so you
+              can always get the right amount of funds.
+            </p>
+          </div>
+          <div class="md:h-90 md:w-[37rem] w-full overflow-hidden flex items-center md:justify-end">
+            <img
+              class="benImg w-full h-full"
+              src="/Images/Screenshot 2025-06-22 224528.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <hr class="w-[95%] mx-auto" />
+
+
+
+        <div class="p-10 flex gap-5 flex-col md:flex-row  w-full items-center justify-between">
+          <div class="md:h-90 md:w-3/5 flex flex-col items-start justify-between">
+            <div class="flex flex-col gap-5">
+              <div class="overflow-hidden w-10 h-10 rounded-full">
+                <div
+                  class="benNum w-10 h-10 rounded-full bg-[#55DE48] flex items-center justify-center"
+                >
+                  03
+                </div>
+              </div>
+              <div class="h-30 overflow-hidden">
+                <h1 class="benH3 text-6xl font-black w-2/3 tracking-tighter">
+                  FAST FUNDS. FULL EQUITY.
+                </h1>
+              </div>
+            </div>
+            <p class="w-[60%]">
+              Build your cash instantly without the need for dilution, and own
+              more of your business for longer.
+            </p>
+          </div>
+          <div class="md:h-90 md:w-[37rem] w-full overflow-hidden">
+            <img
+              class="benImg w-full h-full"
+              src="/Images/Screenshot 2025-06-22 224551.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <hr class="w-[95%] mx-auto" />
+      </div>
+
+      <div class="fourthPage bg-[#122315] flex md:flex-row flex-col md:h-screen">
+        <div class="md:w-1/2 w-full md:p-10 p-20 flex flex-col justify-between md:items-start items-center relative">
+          <img
+            class="absolute md:w-[9rem] z-3 fourthPageBadge1 md:top-1/2 md:left-30 top-35 -left-10"
+            src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65269bee493d3be8cd1d8c59_life%20on%20land.svg"
+            alt=""
+          />
+          <img
+            class="absolute md:w-[9rem] z-3 fourthPageBadge2 md:top-[45%] md:left-100 top-70 -right-4"
+            src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65269bbac3c6dc8895da42b1_economic%20growth.svg"
+            alt=""
+          />
+          <img
+            class="absolute md:w-[9rem] z-3 fourthPageBadge3 md:top-[42%] md:left-70 top-25 -right-10"
+            src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65269bb701a64c30b8bb47fc_responsible%20consumption.svg"
+            alt=""
+          />
+          
+            <div
+              class="md:text-[8vw] text-[4rem] text-center md:text-left font-black tracking-tighter leading-[1] text-[#F4EBE2]"
+            >
+              <div class="w-fit h-fit overflow-hidden"><h1 class="page4H1">CALCULATE</h1></div>
+              <div class="w-fit h-fit overflow-hidden"> <h1 class="page4H1">YOUR</h1></div>
+              <div class="w-fit h-fit overflow-hidden"><h1 class="page4H1">FUNDING</h1></div>
+               
+            </div>
+       
+          <p class="text-[#F4EBE2] text-center md:text-left md:w-full w-2/3">
+            Your funding - and your fee - is based on how financially healthy
+            and ESG aware your company is. The more ESG accreditations you have.
+            the lower your fee.
+          </p>
+           <button
+            class="homeBtn mt-10 text-md text-[#000] font-medium p-5 py-3 bg-[#55DE48] rounded-lg"
+          >
+            GET FUNDING
+          </button>
+        </div>
+        <div class="md:w-1/2 p-10">
+          <div class="p-10 border-2 border-[#F4EBE2] rounded-lg">
+            <div class="max-w-xl mx-auto space-y-6 text-[#F4EBE2]">
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span>🧾</span>
+                    <span>Invoice amount</span>
+                  </div>
+                  <div class="w-1/2 h-2 bg-gray-700 rounded">
+                    <div class="w-[75%] h-2 bg-green-400 rounded"></div>
+                  </div>
+                  <span>£50K</span>
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span>🔁</span>
+                    <span>Months to pay back</span>
+                  </div>
+                  <div class="w-1/2 h-2 bg-gray-700 rounded">
+                    <div class="w-[33%] h-2 bg-green-400 rounded"></div>
+                  </div>
+                  <span>4</span>
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <span>📊</span>
+                    <span>Credit rating</span>
+                  </div>
+                  <div class="w-1/2 h-2 bg-gray-700 rounded">
+                    <div class="w-[90%] h-2 bg-green-400 rounded"></div>
+                  </div>
+                  <span>Good</span>
+                </div>
+              </div>
+
+              <div class="mt-6">
+                <h2 class="text-white mb-2">Claim your discounts</h2>
+                <div class="flex gap-4 flex-wrap">
+                  <div
+                    class="border border-gray-600 rounded px-4 py-3 text-center"
+                  >
+                    <p class="text-xs font-semibold">PlanetMark</p>
+                  </div>
+                  <div
+                    class="border border-gray-600 rounded px-4 py-3 text-center"
+                  >
+                    <p class="text-xs font-semibold">
+                      1%<br />FOR THE<br />PLANET
+                    </p>
+                  </div>
+                  <div
+                    class="border border-gray-600 rounded px-4 py-3 text-center"
+                  >
+                    <p class="text-xs font-semibold">Certified<br />B Corp</p>
+                  </div>
+                  <div
+                    class="border border-gray-600 rounded px-4 py-3 text-center"
+                  >
+                    <p class="text-xs font-semibold">Climate<br />Neutral</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="max-w-xl mx-auto mt-10 border-t border-gray-700 pt-6 text-[#F4EBE2]"
+            >
+              <div>
+                <span
+                  class="bg-green-700 text-white text-xs px-3 py-1 rounded uppercase tracking-wide"
+                  >Monthly Repayments</span
+                >
+              </div>
+              <div class="text-5xl text-green-500 font-bold mt-4">£12,891</div>
+
+              <div class="mt-6 text-sm space-y-2">
+                <div class="flex justify-between">
+                  <span>Fee</span>
+                  <span>£1,562.50 (3.125%)</span>
+                </div>
+                <div class="flex justify-between">
+                  <span>Discount</span>
+                  <span>-£0 (0%)</span>
+                </div>
+                <div class="flex justify-between font-semibold text-white">
+                  <span>Total</span>
+                  <span>£51,562.50</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fifthPage w-full h-full bg-[#F4EBE2] flex flex-col">
+        <div class="w-full h-screen p-10">
+          <div
+            class="w-full h-full text-[#F4EBE2] flex flex-col items-center justify-between bg-gray-700 border-[#F4EBE2] bg-cover bg-center rounded-lg bg-[url(/Images/WEARE.webp)]"
+          >
+            <div class="w-full p-5">
+              <h1
+                class="md:text-8xl text-7xl font-black text-end tracking-tighter leading-[1]"
+              >
+                WHO WE <br />
+                FUND
+              </h1>
+            </div>
+            <div class="w-full p-5">
+              <p class="md:w-1/3">
+                We back companies committed to a better world with strong
+                environmental, social, and governance ethics.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex md:flex-row flex-col w-full">
+          <div class="md:w-1/3 h-72 border-l-2 border-b-2 border-t-2 px-5 py-10">
+            <i
+              class="text-zinc-200 p-2 rounded-full bg-[#122217] text-2xl ri-home-5-fill"
+            ></i>
+            <h1
+              class="text-[2.5rem] font-black tracking-tighter mt-10 leading-10"
+            >
+              UK-BASED SMALL TO MIDSIZE BUSINESS
+            </h1>
+          </div>
+          <div class="md:w-1/3 h-72 border-l-2 border-b-2 border-t-2 px-5 py-10">
+            <i
+              class="text-zinc-200 p-2 rounded-full bg-[#122217] text-2xl ri-file-text-fill"
+            ></i>
+            <h1
+              class="text-[2.5rem] font-black tracking-tighter mt-10 leading-10"
+            >
+              WHO NEED TO PAY TO SUPPLIERS AROUND THE WORLD
+            </h1>
+          </div>
+          <div class="md:w-1/3 h-72 border-l-2 border-b-2 border-t-2 px-5 py-10">
+            <i
+              class="text-zinc-200 p-2 rounded-full bg-[#122217] text-2xl ri-leaf-fill"
+            ></i>
+            <h1
+              class="text-[2.5rem] font-black tracking-tighter mt-5 leading-10"
+            >
+              WHO CAN DEMONSTRATE SUSTAINABLE EFFORST
+            </h1>
+          </div>
+        </div>
+         <div class="flex flex-nowrap w-full overflow-hidden md:p-15 p-10">
+        <div class="loop-inner flex flex-nowrap">
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc855bb24174b77269f1a6_nice.svg" />            
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39b660fe233de5f010b54_Lestrange%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a3610749b3820e5723ee35_hylo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc834abd58d205867e0389_manors.svg" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a398d96a12f61ddf65ef35_Punchy%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66fa91f14fa1c540155c7ec8_svgexport-10%201.png" />    
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc834a42d58de33d62b333_nue%20co.svg" />                    
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39b5b35d9d4841a9f9d8d_Homethings%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65f85f4f0a50e6802d4a8942_image.png" /> 
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39a5517dbbbc3e40b1832_Citizens%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66fd673982014c69f8a62243_Dr%20Will%27s%20Logo.png" />
+        </div>
+        <div class="loop-inner flex flex-nowrap">
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc855bb24174b77269f1a6_nice.svg" />            
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39b660fe233de5f010b54_Lestrange%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a3610749b3820e5723ee35_hylo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc834abd58d205867e0389_manors.svg" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a398d96a12f61ddf65ef35_Punchy%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66fa91f14fa1c540155c7ec8_svgexport-10%201.png" />    
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65cc834a42d58de33d62b333_nue%20co.svg" />                    
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39b5b35d9d4841a9f9d8d_Homethings%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65f85f4f0a50e6802d4a8942_image.png" /> 
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66a39a5517dbbbc3e40b1832_Citizens%20logo.png" />
+                     <img class="md:w-42 w-25 mr-20 md:mr-50 flex-shrink-0" src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/66fd673982014c69f8a62243_Dr%20Will%27s%20Logo.png" />
+        </div>
+      </div>
+      </div>
+
+      <div
+        class="sixthPage w-full relative md:h-[140vh] h-[80vh] bg-[#122315] text-[#F4EBE2] flex flex-col items-center justify-center"
+      >
+        <h1 class="md:text-7xl text-[3rem] tracking-tight font-black opacity-60 text-center leading-[1]">
+          DO IT FOR TRE PLANET.
+        </h1>
+        <h1 class="md:text-7xl text-[3rem] tracking-tight font-black opacity-60 text-center leading-[1]">
+          DO IT FOR YOUR DUSINESS.
+        </h1>
+        <h1 class="md:text-7xl text-[3rem] tracking-tight font-black opacity-60 text-center leading-[1]">
+          THE BETTER YOUR ESG
+        </h1>
+        <h1 class="md:text-7xl text-[3rem] tracking-tight font-black opacity-60 text-center leading-[1]">
+          SCORE GETS, THE DIGGER
+        </h1>
+        <h1 class="md:text-7xl text-[3rem] tracking-tight font-black opacity-60 text-center leading-[1]">
+          THE DISCOUNTS
+        </h1>
+
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:top-10 md:left-100 top-0"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a6cc8a59123cfc51f_reduced%20inequalities.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:top-40 md:left-30 top-5 left-2"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a19c99a0901eb7330_industry.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:top-[45%] md:-left-5 -rotate-15 bottom-20 -left-5"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262ab87556319a5adad7_planetmark.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:bottom-40 md:left-60 bottom-0 left-40"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a049496476650d483_climate%20action.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:bottom-10 md:left-[30%] bottom-5 left-80"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a92d2cb7d55649568_gender%20equality.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:bottom-10 md:right-90 rotate-10 bottom-20 right-0"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a1cf6429622a99054_b-corp.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:bottom-30 md:right-20 top-0 right-0"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262ab3b79bd59bf00e6d_clean%20water.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] hidden md:block absolute md:top-[40%] md:-right-5"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262ab3b79bd59bf00e6d_clean%20water.svg"
+          alt=""
+        />
+        <img
+          class="md:w-[11rem] w-[6rem] absolute md:top-25 md:right-40 -rotate-20 top-50 -right-10"
+          src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/6528262a89a92dc434b0df3e_1%254theplanet.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="bg-[#F4EBE2] text-[#122315] p-10">
+        <h1 class="text-9xl font-black text-[#122315]">FAQS</h1>
+        <div class="flex flex-col md:flex-row items-start md:gap-5 gap-20 justify-between">
+          <div class="flex flex-col md:gap-5 mt-10">
+            <h2 class="text-3xl font-black">FUNDING</h2>
+            <h2 class="text-3xl font-black">REPAYMENTS</h2>
+            <h2 class="text-3xl font-black">GENERAL</h2>
+          </div>
+          <div class="md:w-1/2 flex flex-col justify-center gap-15 items-center">
+            <div class="h-fit w-fit faq">
+              <div class="flex items-center justify-between">
+                <h2 class="text-4xl font-black uppercase tracking-tighter">
+                  How quickly can I access the funds?
+                </h2>
+                <i class="ri-add-large-line text-2xl plusTag"></i>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden faqPara trasnition duration-750"
+              >
+                <p class="w-full">
+                  Once you've completed a brief questionnaire about your
+                  business and connected your financial accounts, you'll have
+                  immediate access to a portion of your funds. The full amount
+                  will be available within 72 hours after our team manually
+                  checks your company details.
+                </p>
+              </div>
+              <div class="h-5 border-b-1"></div>
+            </div>
+
+            <div class="h-fit w-fit  faq">
+              <div class="flex items-center justify-between">
+                <h2 class="text-4xl font-black uppercase tracking-tighter">
+                  What can I use the funding for?
+                </h2>
+                <i class="ri-add-large-line text-2xl plusTag"></i>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden faqPara trasnition duration-750"
+              >
+                <p class="w-full">
+                  We offer financing for your supplier invoices. Simply upload your supplier's invoice to our system, and we'll handle the full payment to them. For a list of goods we don't cover, please refer to our Terms of Service: https://www.kikin.io/terms-of-service.
+                </p>
+              </div>
+              <div class="h-5 border-b-1"></div>
+            </div>
+
+            <div class="h-fit w-fit faq">
+              <div class="flex items-center justify-between">
+                <h2 class="text-4xl font-black uppercase tracking-tighter">
+                 How do I know that my company is a good match?
+                </h2>
+                <i class="ri-add-large-line text-2xl plusTag"></i>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden faqPara trasnition duration-750"
+              >
+                <p class="w-full">
+                  We love supporting UK-based businesses that need to pay their suppliers, whether they're local or abroad. Just share your financial history with us so we can figure out your credit line. Additionally, if you’re committed to sustainability, we appreciate that and offer special discounts on our fees.
+                </p>
+              </div>
+              <div class="h-5 border-b-1"></div>
+            </div>
+
+            <div class="h-fit w-fit faq">
+              <div class="flex items-center justify-between">
+                <h2 class="text-4xl font-black uppercase tracking-tighter">
+                  Can I pay to suppliers abroad?
+                </h2>
+                <i class="ri-add-large-line text-2xl plusTag"></i>
+              </div>
+              <div
+                class="max-h-0 overflow-hidden faqPara trasnition duration-750"
+              >
+                <p class="w-full">
+                  Certainly! In addition to our local UK suppliers, we also facilitate international payments to a range of countries. If you're paying invoices in different currencies, a small exchange fee will apply.
+                </p>
+              </div>
+              <div class="h-5 border-b-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer w-full bg-[#122315]">
+        <div class="w-full md:h-[130vh] h-[80vh] flex items-end relative">
+          <img
+            class="w-full"
+            src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/65363617f2f8b421dacfacc5_Illustration.svg"
+            alt=""
+          />
+          <div
+            class="w-full z-8 absolute top-[10] left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center py-20"
+          >
+            <h1
+              class="md:text-9xl text-[10vw] font-black tracking-tighter leading-[.8] text-[#F4EBE2]"
+            >
+              GET FUNDING.
+            </h1>
+            <h1
+              class="md:text-9xl text-[10vw] font-black tracking-tighter leading-[.8] text-[#FFED52]"
+            >
+              CHANGE THE
+            </h1>
+            <h1
+              class="md:text-9xl text-[10vw] font-black tracking-tighter leading-[.8] text-[#FFED52]"
+            >
+              WORLD.
+            </h1>
+            <button
+              class="text-md text-[#fefff5] px-5 py-2 bg-transparent mt-5 rounded-lg border-1 border-zinc-200/20"
+            >
+              SIGN UP TO KIKIN
+            </button>
+          </div>
+        </div>
+        <div class="w-full relative text-[#F4EBE2] md:h-80 h-120">
+          <div
+            class="w-full pt-30 md:h-140 h-[120vh] flex flex-col justify-end absolute bottom-0 left-0 z-5 bg-gradient-to-t from-[#122315] from-60% to-transparent to-00%"
+          >
+            <div class="flex flex-col md:flex-row items-start justify-between p-5">
+              <div class="flex md:p-10 py-10 md:py-0 gap-5 md:w-2/5">
+                <img
+                class="md:w-20 w-15"
+                  src="https://cdn.prod.website-files.com/635273ea37c256ef2835d522/640748001950737db50fb32b_k-symbol.svg"
+                  alt=""
+                />
+                <div>
+                  <h5 class="md:text-4xl text-3xl">Get in touch</h5>
+                  <p class="md:text-4xl text-3xl underline">hello@kikin.io</p>
+                </div>
+              </div>
+              <div class="md:w-1/5 flex flex-col gap-3 items-start">
+                <p class="text-lg leading-[1]">2023 Kikin Financial Ltd</p>
+                <p class="text-lg leading-[1]">Company no. 14569152</p>
+                <p class="text-lg leading-[1.2]">
+                  Ground Floor, Verse Building, 18 Brunswick Place, London, N1
+                  6DZ
+                </p>
+              </div>
+              <div class="flex flex-col gap-2 md:w-1/4 items-start">
+                <a class="text-lg" href="#">How it works</a>
+                <a class="text-lg" href="#">Pricing</a>
+                <a class="text-lg" href="#">FAQs</a>
+                <a class="text-lg" href="#">Blog</a>
+                <a class="text-lg" href="#">Privacy policy</a>
+                <a class="text-lg" href="#">Term of service</a>
+                <div class="btns flex gap-2 p-2">
+                  <button
+                    class="text-md text-[#fefff5] w-30 p-3 py-1.5 bg-transparent rounded-full border-1 border-zinc-200/20"
+                  >
+                    Linkdin
+                  </button>
+                  <button
+                    class="text-md text-[#fefff5] w-30 p-3 py-1.5 bg-transparent rounded-full border-1 border-zinc-200/20"
+                  >
+                    X
+                  </button>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="p-10 md:w-1/2 text-xs opacity-80">
+              <p>
+                KIKIN FINANCIAL LIMITED is registered with the Financial Conduct
+                Authority (FCA) under the Money Laundering, Terrorist Financing,
+                and Transfer of Funds (Information on the Payer) Regulations
+                2017 (reg. 1016692)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
