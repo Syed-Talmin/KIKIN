@@ -1,3 +1,8 @@
+(function () {
+        const locomotiveScroll = new LocomotiveScroll();
+    })();
+
+
 const splitText = (text, split) => {
   let clutter = "";
   text.split(split).forEach((el) => {

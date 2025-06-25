@@ -11,6 +11,9 @@ h1,h2,h3 {
 .loop-inner{
   animation: MoveInf 15s linear infinite;
 }
+.whoWe {
+  background-image: url('https://cdn.prod.website-files.com/635273ea37c256ef2835d522/654a2d68f78e92b5208a0f3f_Mountains-hands.webp');
+}
 
 @keyframes MoveInf {
   0%{
